@@ -1,0 +1,19 @@
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=001;nome=Teclado;quantidade=10;categoria=Perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=002;nome=Mouse;quantidade=12;categoria=Perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=003;nome=Monitor;quantidade=5;categoria=Video", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=004;nome=Headset;quantidade=8;categoria=Audio", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=005;nome=Cabo_HDMI;quantidade=20;categoria=Cabos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=006;nome=Notebook;quantidade=3;categoria=Computadores", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=007;nome=SSD;quantidade=15;categoria=Armazenamento", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=008;nome=Mousepad;quantidade=30;categoria=Perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=009;nome=Webcam;quantidade=7;categoria=Video", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:36.798207106 UTC, acao = Add, detalhes = "itemID=010;nome=Caixa_de_som;quantidade=6;categoria=Audio", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:05:58.089966223 UTC, acao = Add, detalhes = "itemID=100;nome=teclado;quantidade=10;categoria=perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:06:05.303907281 UTC, acao = Add, detalhes = "itemID=101;nome=mouse;quantidade=20;categoria=perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:06:13.955934676 UTC, acao = Add, detalhes = "itemID=102;nome=monitor;quantidade=5;categoria=video", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:40:58.551923984 UTC, acao = Add, detalhes = "itemID=200;nome=teclado;quantidade=10;categoria=perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:41:07.098335473 UTC, acao = Remove, detalhes = "itemID=200;quantidade=15", status = Falha "estoque insuficiente"}
+LogEntry {timestamp = 2026-06-14 23:43:24.524164424 UTC, acao = Update, detalhes = "itemID=100;nome=teclado_rgb;quantidade=30;categoria=perifericos", status = Sucesso}
+LogEntry {timestamp = 2026-06-14 23:43:58.406020194 UTC, acao = Remove, detalhes = "itemID=999;quantidade=5", status = Falha "item nao encontrado"}
+LogEntry {timestamp = 2026-06-15 00:13:53.343181125 UTC, acao = Seed, detalhes = "seed", status = Falha "inventario ja possui dados"}
+LogEntry {timestamp = 2026-06-15 00:14:19.984636207 UTC, acao = Add, detalhes = "itemID=100;nome=teclado;quantidade=10;categoria=perifericos", status = Falha "item ja existe"}
